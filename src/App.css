@@ -36,3 +36,171 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  height: 70px;
+}
+.nav {
+  display: flex;
+  width: 50%;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  list-style: none;
+  color: #fff;
+  justify-content: space-between;
+  width: 70%;
+}
+.bg {
+  background-image: url(./assets/image.png) !important;
+  height: 100% !important;
+  background-size: cover !important;
+}
+.hero {
+  height: calc(100vh - 70px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-text {
+  color: #fff !important;
+  text-align: center !important;
+}
+.box-search {
+  width: 50%;
+}
+.select-box {
+  width: 18%;
+}
+.select-box > * {
+  width: 20%;
+  height: 70px !important;
+}
+
+.ant-select-selection-item {
+  align-self: center;
+}
+
+.box-title {
+  margin-bottom: 100px;
+}
+
+.search-button {
+  width: 13% !important;
+  height: 70px !important;
+  margin-left: 2% !important;
+}
+.box-title-2 {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.mid {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.arrow-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+.arrow-btn > * {
+  margin: 5px;
+}
+
+.img-right {
+  width: calc(calc(100vw/24)*9);
+  height: 100%;
+  margin-right: -35%;
+  padding-left: 16px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.des {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner {
+  width: 150px;
+  height: 100%;
+}
+
+.tag {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  padding: 10px !important;
+  background-color: transparent !important;
+  border-radius: 15px !important;
+  color: #fff !important;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  color: #fff !important;
+}
+
+.white {
+  color: #fff !important;
+}
+
+.bgSubscrible {
+  background-image: url(./assets/bg.png);
+  width: 88%;
+  height: auto;
+  padding: 66px;
+}
+
+.subscrible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.inputEmal {
+  height: 60px !important;
+  border-radius: 10px !important;
+}
+.Footer {
+  overflow: hidden;
+  margin-top: 100px;
+}
+.FooterEnd {
+  background-color: #000 !important;
+  height: 500px;
+  width: 120%;
+  margin-left: -50px;
+  margin-top: -130px;
+}
+
+.btn-create-account {
+  background-color: rgba(255,255,255, 0.1) !important;
+  margin-top: 10px;
+}
+.ant-select-selection-item {
+  display: flex;
+  justify-content: center;
+}

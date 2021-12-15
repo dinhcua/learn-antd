@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import { Layout } from 'antd';
 import './App.css';
+import 'antd/dist/antd.css';
+import NavBar from './components/NavBar';
+import Hero from './components/Hero';
+import BestProvide from './components/BestProvide';
+import AboutUs from './components/AboutUs';
+import Featured from './components/Featured';
+import Partner from './components/Partner';
+import Cities from './components/Cities';
+import Testimonials from './components/Testimonials';
+import Subscribe from './components/Subscribe';
+import FooterEnd from './components/FooterEnd';
 
+const { Header, Footer } = Layout;
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Header className='bg'>
+        <NavBar />
+        <Hero />
+      </Header>
+      <BestProvide />
+      <AboutUs />
+      <Featured />
+      <Partner />
+      <Cities />
+      <Testimonials />
+      <Footer className='Footer'>
+        <Subscribe />
+        <FooterEnd />
+      </Footer>
+    </Layout>
   );
 }
 
