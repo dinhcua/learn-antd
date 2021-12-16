@@ -10,7 +10,6 @@ function CoverComment() {
         </div>
     )
 }
-
 export default function Testimonials() {
     return (
         <div>
